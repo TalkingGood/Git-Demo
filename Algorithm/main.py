@@ -5,9 +5,6 @@
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-list = [ int(s) for s in input("請輸入： ").split()]
-for i in range(len(list) -1, -1):
-    print(i)
-    print(list[i])
-
+for index in range(1,16,1):
+    print(index)
 
